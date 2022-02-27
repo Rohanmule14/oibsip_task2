@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.top {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+html {
+  scroll-behavior: smooth;
+}
+nav {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  position: relative;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+nav h1 {
+  font-size: 25px;
+  color: yellow;
+  font-family: "Poppins", sans-serif;
+}
+.nav::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid yellow;
+}
+
+.intro {
+  margin-left: 8%;
+  margin-top: 10%;
+}
+.intro h1 {
+  font-size: 50px;
+  color: yellow;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.intro h1 span {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.intro p {
+  font-size: 25px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.intro a {
+  background: transparent;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: yellowgreen;
+  border: 2px solid yellowgreen;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+.intro a:hover {
+  background: transparent;
+  font-size: 20px;
+  transition: 0.25s;
+}
+.img {
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+.img img {
+  height: 70%;
+  position: absolute;
+  left: 20%;
+  border: 5px solid yellowgreen;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+.img img:hover {
+  box-shadow: 20px 10px yellow;
+  transition: 0.3s;
+}
+
+.about {
+  width: 100%;
+  padding: 20px 0px;
+  background-color: black;
+}
+.title {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.user-icon {
+  padding: 40px;
+  width: 100%;
+  font-size: 200px;
+}
+.text {
+  padding: 20px;
+}
+.text h1 {
+  color: yellow;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.text h5 {
+  color: yellowgreen;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+.text p {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.SocialMedia {
+  min-height: 100%;
+  width: 100%;
+  background-color: black;
+  padding-top: 30px;
+}
+.title2 {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+.title2 h2 {
+  text-align: center;
+  color: yellow;
+  font-family: "Poppins", sans-serif;
+}
+.outline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px;
+}
+.instagram {
+  border: 2px solid yellowgreen;
+  padding: 20px;
+  border-radius: 20px;
+}
+.instagram h3 {
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.instagram i {
+  color: crimson;
+  font-size: 100px;
+  padding-bottom: 10px;
+}
+.instagram i:hover {
+  font-size: 150px;
+  transition: 0.2s;
+}
+.meta {
+  border: 2px solid yellowgreen;
+  padding: 20px;
+  border-radius: 20px;
+}
+.meta h3 {
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.meta i {
+  color: blue;
+  font-size: 100px;
+  padding-bottom: 10px;
+}
+.meta i:hover {
+  font-size: 150px;
+  transition: 0.2s;
+}
+.linkedin {
+  border: 2px solid yellowgreen;
+  padding: 20px;
+  border-radius: 20px;
+}
+.linkedin h3 {
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.linkedin i {
+  color: darkblue;
+  font-size: 100px;
+  padding-bottom: 10px;
+}
+.linkedin i:hover {
+  font-size: 150px;
+  transition: 0.2s;
+}
+.github {
+  border: 2px solid yellowgreen;
+  padding: 20px;
+  border-radius: 20px;
+}
+.github h3 {
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.github i {
+  color: indigo;
+  font-size: 100px;
+  padding-bottom: 10px;
+}
+.github i:hover {
+  font-size: 150px;
+  transition: 0.2s;
+}
+.twitter {
+  border: 2px solid yellowgreen;
+  padding: 20px;
+  border-radius: 20px;
+}
+.twitter h3 {
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.twitter i {
+  color: deepskyblue;
+  font-size: 100px;
+  padding-bottom: 10px;
+}
+.twitter i:hover {
+  font-size: 150px;
+  transition: 0.2s;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+.contact h1 {
+  margin: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+  color: yellow;
+  font-family: "Poppins", sans-serif;
+}
+.contact h3 {
+  text-align: center;
+  font-weight: 500;
+  color: yellowgreen;
+  font-family: "Poppins", sans-serif;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form .input {
+  background-color: lightgray;
+}
+.form .input:hover {
+  background-color: white;
+  transition: 0.25s;
+}
+.input {
+  padding: 15px 20px;
+  margin: 15px;
+  width: 40%;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+}
+#message {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 20px;
+}
+#submit {
+  padding: 10px 15px;
+  margin: 30px;
+  width: 15%;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid yellow;
+  outline: none;
+  font-size: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+#submit:hover {
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.25s;
+}
+
+.skills {
+  background-color: #000;
+}
+.skills .skills-content {
+  display: flex;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.title {
+  justify-content: center;
+  color: yellow;
+  padding: 20px;
+  padding-bottom: 50px;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.skills .skills-content .column {
+  width: calc(50% - 50px);
+}
+.skills .skills-content .left .text {
+  color: yellowgreen;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.skills-content {
+  padding-left: 50px;
+  font-size: 20px;
+}
+.skills .skills-content .left p {
+  text-align: justify;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.skills .skills-content .left a {
+  display: inline-block;
+  background: lightgreen;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid lightgreen;
+  transition: all 0.3s ease;
+}
+.skills .skills-content .right .bars {
+  margin-bottom: 15px;
+}
+.skills .skills-content .right .info {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+  color: yellowgreen;
+}
+.skills .skills-content .right span {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.skills .skills-content .right .line {
+  height: 5px;
+  width: 100%;
+  background: lightgrey;
+  position: relative;
+}
+.skills .skills-content .right .line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: yellow;
+}
+.skills-content .right .html::before {
+  width: 90%;
+}
+.skills-content .right .css::before {
+  width: 60%;
+}
+.skills-content .right .js::before {
+  width: 80%;
+}
+.skills-content .right .php::before {
+  width: 50%;
+}
+.skills-content .right .mysql::before {
+  width: 70%;
+}
